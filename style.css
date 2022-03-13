@@ -7,16 +7,15 @@
 #titulo {
   width: 1200px;
   display: flex;
-  justify-content: center;
   align-content: center;
   background-color: rgb(74, 143, 233);
   margin: auto;
 }
 
 img {
-    width: 150px;
-    height: 150px;
-    
+    width: 100px;
+    height: 100px;
+    text-align: left;
 }
 
 #menu {
@@ -26,7 +25,8 @@ img {
     margin: 20px;
     align-content: flex-end;    
       }
-a{
+
+#menulink {
     text-decoration: none;
     cursor: pointer;
 }
@@ -42,6 +42,9 @@ a{
     border: 1px solid black;
     height: 300px;
     margin: 10px;
+    font-size: 24px;
+    color: white;
+    background-color: gray;
 }
 
 aside {
@@ -52,11 +55,23 @@ aside {
 
 }
 
+#register {
+    text-align: left;
+}
+
 #sidemenu {
   text-decoration: none;
   overflow: hidden;
   margin: auto;
+  font-size: 20px;
   }
+
+input[type="submit"]{
+    color: black;
+    font-size: 20px;
+    background : linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca 100%);
+    border: 1px solid #156785;
+}
 
 footer {
   border: 1px solid black;
