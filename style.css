@@ -1,19 +1,38 @@
 #header_container {
-  border: 1px solid black;
-  background-color: rgb(82, 133, 241);
-}
-
-#container_main {
-  border: 1px solid black;
-  background-color: aquamarine;
   display: flex;
-  align-content: space-between;
+  flex-direction: row;
+  }
+
+h1 {
+  width: 1200px;
+  text-align: center;
 }
 
 div {
-  width: 100%;
-  margin: 20px;
-  border: 1px solid black;
+    width: 1000px;
+    margin: 20px;
+    
+  }
+
+span {
+    border: 1px solid transparent;
+    display: flex;
+    
+    
+}
+
+
+
+
+#container_main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#articles{
+    border: 1px solid black;
 }
 
 aside {
@@ -23,8 +42,13 @@ aside {
   text-decoration: none;
   overflow: hidden;
 }
+li,
+a {
+  text-decoration: none;
+  overflow: hidden;
+  margin: auto;
+  }
 
 footer {
-    
   border: 1px solid black;
 }
